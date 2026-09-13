@@ -1,0 +1,41 @@
+{
+  "weight_grid_runs": 27,
+  "weight_joint_risk_range": [
+    0.3035948619399795,
+    0.3223043966665211
+  ],
+  "weight_disruption_range": [
+    0.017467708333333335,
+    0.039916319444444445
+  ],
+  "weight_learning_loss_range": [
+    0.012476736111111112,
+    0.04491875
+  ],
+  "action_effect_joint_risk_range": [
+    0.2892660887090182,
+    0.33240976283524915
+  ],
+  "action_effect_disruption_range": [
+    0.01746840277777778,
+    0.039373611111111116
+  ],
+  "ablation": [
+    {
+      "experiment": "ablation_learning_off",
+      "mean_joint_risk": 0.30982561352969357,
+      "mean_disruption": 0.02495486111111111,
+      "mean_learning_loss": 0.04491875,
+      "intervention_rate": 0.2495486111111111,
+      "stop_rate": 0.0
+    },
+    {
+      "experiment": "ablation_learning_on",
+      "mean_joint_risk": 0.3223036305264797,
+      "mean_disruption": 0.01746840277777778,
+      "mean_learning_loss": 0.012477430555555556,
+      "intervention_rate": 0.2495486111111111,
+      "stop_rate": 0.0
+    }
+  ]
+}
