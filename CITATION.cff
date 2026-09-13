@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use VR Guardian in research, please cite this software."
+title: "VR Guardian: Safe Difficulty for Industrial Virtual-Reality Training"
+type: software
+authors:
+  - family-names: "Akhtar"
+    given-names: "Mohammad Amir Khusru"
+year: 2026
+license: Apache-2.0
+repository-code: "https://github.com/Arithmetic-Power-Geometry/VR_Guardian"
