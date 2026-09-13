@@ -1,0 +1,64 @@
+{
+  "base_sessions": 240,
+  "policy_evaluations": 960,
+  "policies": [
+    "Comfort-First",
+    "Fixed Training",
+    "Safety-First",
+    "VR Guardian"
+  ],
+  "scenarios": [
+    "crane",
+    "factory",
+    "forklift",
+    "mining",
+    "oil_gas",
+    "substation"
+  ],
+  "policy_summary": [
+    {
+      "policy": "Comfort-First",
+      "session": 19.5,
+      "mean_human_risk": 0.27728635197180534,
+      "mean_operational_risk": 0.3680228611986929,
+      "mean_joint_risk": 0.3226546065852491,
+      "mean_disruption": 0.0254,
+      "mean_learning_loss": 0.0254,
+      "intervention_rate": 0.15875,
+      "stop_rate": 0.0
+    },
+    {
+      "policy": "Fixed Training",
+      "session": 19.5,
+      "mean_human_risk": 0.32808635197180536,
+      "mean_operational_risk": 0.3838978611986929,
+      "mean_joint_risk": 0.3559921065852491,
+      "mean_disruption": 0.0,
+      "mean_learning_loss": 0.0,
+      "intervention_rate": 0.0,
+      "stop_rate": 0.0
+    },
+    {
+      "policy": "Safety-First",
+      "session": 19.5,
+      "mean_human_risk": 0.20391107445313014,
+      "mean_operational_risk": 0.24871252849759293,
+      "mean_joint_risk": 0.22631180147536153,
+      "mean_disruption": 0.08734201388888889,
+      "mean_learning_loss": 0.12477430555555555,
+      "intervention_rate": 0.2495486111111111,
+      "stop_rate": 0.2495486111111111
+    },
+    {
+      "policy": "VR Guardian",
+      "session": 19.5,
+      "mean_human_risk": 0.26819585818759983,
+      "mean_operational_risk": 0.37641140286535957,
+      "mean_joint_risk": 0.3223036305264797,
+      "mean_disruption": 0.01746840277777778,
+      "mean_learning_loss": 0.012477430555555556,
+      "intervention_rate": 0.2495486111111111,
+      "stop_rate": 0.0
+    }
+  ]
+}
