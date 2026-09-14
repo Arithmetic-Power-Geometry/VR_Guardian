@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "If you use VR Guardian in research, please cite this software."
+message: "If you use VR Guardian in research, please cite this software and the associated paper."
 title: "VR Guardian: Safe Difficulty for Industrial Virtual-Reality Training"
 type: software
 authors:
@@ -8,3 +8,12 @@ authors:
 year: 2026
 license: Apache-2.0
 repository-code: "https://github.com/Arithmetic-Power-Geometry/VR_Guardian"
+preferred-citation:
+  type: article
+  title: "Safe Difficulty: Multi-Objective Adaptive Control of Human Risk and Training Fidelity in Industrial Virtual Reality"
+  authors:
+    - family-names: "Akhtar"
+      given-names: "Mohammad Amir Khusru"
+  year: 2026
+  doi: "10.5281/zenodo.22741668"
+  url: "https://doi.org/10.5281/zenodo.22741668"
